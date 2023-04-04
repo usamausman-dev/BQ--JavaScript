@@ -1,3 +1,5 @@
+// DAY 1 - 4 APR 
+
 // alert("Hello JS")
 // var user = prompt("Your Name PLease", "Usama")
 // alert(user)
@@ -6,9 +8,9 @@
 // document.write(arr)
 // console.log(arr)
 
-var yusraImranBanoQabil = "jee Sahi kaha , yeh pagal hai"; //camelCase
-var YusraImranBanoQabil; // PascalCase
-var yusra_imran_bano_qabil //snake_case
+// var yusraImranBanoQabil = "jee Sahi kaha , yeh pagal hai"; //camelCase
+// var YusraImranBanoQabil; // PascalCase
+// var yusra_imran_bano_qabil //snake_case
 
 // console.log(yusraImranBanoQabil)
 // var num = 13
@@ -33,13 +35,16 @@ var yusra_imran_bano_qabil //snake_case
 // var fname = "Usman"
 // console.log(name+ " " + fname)
 
-var num = 2
-console.log(num)
+// var num = 2
+// console.log(num)
 // num = num+10
 // num *=10
 // num++
-++num
-console.log(num)
+// ++num
+// console.log(num)
+
+// DAY 2 - 5 APR 
+
 
 
 
