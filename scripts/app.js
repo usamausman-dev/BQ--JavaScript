@@ -129,6 +129,36 @@ for (var i = 0; i < arr.length; i++) {
 console.log(arr.length)
 
 
+// CHAP 30 to 38
+
+
+// var current = new Date()
+    // console.log(current)
+    // var days = ['sun', 'mon', 'tues', 'wed', 'thurs', 'fri', 'sat']
+    // console.log(current.getFullYear())
+    // console.log(current.getDate())
+    // console.log(days[current.getDay()])
+
+    // var myDOB  = new Date("July 19 , 1999 10:07")
+    // // var myDOB  = new Date()
+    // myDOB.setDate(19)
+    // // myDOB.setMonth(6)
+
+    // console.log(myDOB)
+
+
+    // var myage = current - myDOB
+    // console.log(myage/(1000*60*60*24*365.25))
+    // age calculator
+    function ageCalculator(userDOB) {
+        var current = new Date()
+        var myage = current - userDOB
+        return myage / (1000 * 60 * 60 * 24 * 365.25)
+    }
+
+    var myDOB = new Date("July 19 , 1999 10:07")
+    var myage = ageCalculator(myDOB)
+    console.log(myage)
 
 
 
