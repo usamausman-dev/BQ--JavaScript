@@ -128,6 +128,47 @@ for (var i = 0; i < arr.length; i++) {
 
 console.log(arr.length)
 
+// Chap 22 - 30
+
+ // var sentence = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero distinctio, unde ipsum culpa itaque fugiat sapiente, ad necessitatibus voluptates porro placeat rerum dignissimos praesentium repellat reiciendis ducimus voluptatibus non facilis!"
+    // var wordtoReplace = "adipisicing elit"
+
+
+
+    // for (var i = 0; i < sentence.length; i++) {
+    //     if (sentence.slice(i, i + wordtoReplace.length) == wordtoReplace) {
+    //         sentence = sentence.slice(0, i) + "Hello" + sentence.slice(i + wordtoReplace.length)
+
+    //     }
+
+    // }
+
+    var sentence = "do it or do it for others"
+    
+    // console.log(sentence.replace(/do/g,"hello"))
+    // console.log(sentence.indexOf("it"))
+    // console.log(sentence.lastIndexOf("it"))
+    var user = "usAma"
+    console.log(Math.round(67.7897))
+
+    console.log(user.charAt(0).toUpperCase() + user.slice(1).toLowerCase())
+
+
+// var myage = "24.890"
+// undefined
+// parseInt(myage)
+// 24
+// parseFloat(myage)
+// 24.89
+// var num = 7897980
+// undefined
+// num.toString()
+// '7897980'
+// var numbe = 16.789797
+// undefined
+// numbe.toFixed(2)
+// '16.79'
+
 
 // CHAP 30 to 38
 
