@@ -201,6 +201,59 @@ console.log(arr.length)
     var myage = ageCalculator(myDOB)
     console.log(myage)
 
+    function loginUSer() {
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+
+
+        console.log(email,password)
+    }
+    // function demo() {
+    //     console.log("I am running")
+    // }
+
+    // function my_mouse() {
+    //     console.log("Mouse Event")
+    // }
+
+    // Chap 39 - 49
+    // var user = "hey"
+    // switch (user) {
+    //     case "Usama":
+    //         console.log("Yes,Sir")
+    //         break;
+
+    //     case "Aisha":
+    //         console.log("Yes,Beta")
+    //         break;
+
+    //     case "Irshad":
+    //         console.log("Yes,CR")
+    //         break;
+
+    //     default:
+    //         console.log("Yes,Pagalo")
+    // }
+
+
+
+    // for (var i = 0; i < 10; i++) {
+    //     console.log(i)
+    // }
+
+
+    // var i = 0;
+    // while (i < 10) {
+    //     console.log(i);
+    //     i++;
+    // }
+
+    // var i = 0;
+    // do {
+    //     console.log(i);
+    //     i++;
+    // }
+    // while (i>3);
 
 
 
