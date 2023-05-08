@@ -257,3 +257,81 @@ console.log(arr.length)
 
 
 
+    
+    // <!-- <form onsubmit="username(event)">
+    //     <select name="countrycode" id="countrycode"  required >
+    //         <option selected disabled>please select a value</option>
+    //         <option value="+92" >pakistan</option>
+    //         <option value="+91">india</option>
+
+    //     </select>
+    //     <label for="companycode">label</label>
+        
+    //     <input type="text" name="countrycode" id="countrycode" required disabled value="+92"
+    //         placeholder="enter your country code">
+    //     <input type="text" name="companycode" id="companycode" pattern="[0-9]{3}" title="please type 3 digits" required
+    //         placeholder="enter your company code">
+    //     <input type="text" name="contact" id="contact" pattern="[0-9]{7}" title="please type 7 digits" required
+    //         placeholder="enter your contact code">
+    //     <input type="submit" value="login">
+
+    // </form>
+    // <input type="text" id="result">
+
+    // <script>
+    //     function username(e) {
+
+    //         e.preventDefault()
+    //         console.log("hello")
+    //         var countrycode = document.getElementById("countrycode").value
+    //         var companycode = document.getElementById("companycode").value
+    //         var contact = document.getElementById("contact").value
+    //         var result = countrycode + companycode + contact
+    //         console.log(result)
+    //         document.getElementById("result").value = result
+    //     }
+    // </script> -->
+
+    // <!-- <p id="offline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+    // <button onclick="readmore()">Read More</button>
+    // <script>
+
+    //     function readmore() {
+    //         document.getElementById("offline").innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eum deleniti blanditiis. Rem alias aliquam cupiditate nobis maiores a numquam omnis quibusdam ea, vel quos praesentium dolorem debitis explicabo animi."
+    //         // var urName = document.getElementById("offline").innerHTML;
+    //         // var urName = document.getElementById("offline").innerText;
+
+    //         // console.log(urName)
+    //     }
+
+    // </script> -->
+
+
+    // <img src="https://w0.peakpx.com/wallpaper/931/506/HD-wallpaper-black-rose-beauty-natural.jpg" class="widthImg"
+    //     id="myimg" alt="" srcset="">
+    // <button onclick="showImage()">Show</button>
+    // <button onclick="hideImage()">Hide</button>
+
+
+    // <script>
+    //     function showImage() {
+    //         var myimg = document.getElementById('myimg').className;
+    //         var res = myimg.replace('hidden', ' ')
+    //         document.getElementById('myimg').className =res
+
+    //     }
+
+    //     function hideImage() {
+    //         var myimg = document.getElementById('myimg').className;
+    //         console.log(myimg)
+    //         var res = document.getElementById('myimg').className += " hidden"
+    //         console.log(res)
+    //         // console.log(document.getElementById('myimg').className += "hidden")
+
+
+
+    //     }
+    // </script>
+
+
+
